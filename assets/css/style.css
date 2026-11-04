@@ -210,7 +210,7 @@ h1 em,h2 em{font-weight:500;color:var(--rose);font-style:italic}
   .container{width:min(100% - 36px,620px)}
   .nav-wrap{min-height:70px}.brand{font-size:22px}.nav-toggle{display:block}
   .main-nav{display:none;position:absolute;top:70px;left:0;right:0;background:#fffdfb;padding:18px 22px 22px;border-bottom:1px solid var(--line);box-shadow:0 15px 25px rgba(50,35,28,.08);align-items:stretch;gap:0;flex-direction:column}
-  .main-nav.open{display:flex}.main-nav>a:not(.nav-order){padding:11px 0;border-bottom:1px solid #f1e5dd}
+  .main-nav.nav-open{display:flex}.main-nav>a:not(.nav-order){padding:11px 0;border-bottom:1px solid #f1e5dd}
   .nav-order{margin-top:13px;justify-content:center}
   .hero{padding:48px 0 22px}.hero-grid{grid-template-columns:1fr;gap:28px;min-height:auto}
   .hero-copy{padding:0}.hero h1{font-size:clamp(42px,10vw,58px);margin:17px 0}.hero-copy>p{font-size:13px}
