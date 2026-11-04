@@ -26,6 +26,7 @@ $activePage = $activePage ?? '';
             <a class="<?= $activePage === 'about' ? 'active' : '' ?>" href="about.php">About</a>
             <a class="<?= $activePage === 'contact' ? 'active' : '' ?>" href="contact.php">Contact</a>
             <a class="nav-order" href="order.php">Order a Cake <span>→</span></a>
+            <a class="nav-order nav-admin" href="admin/login.php">Admin Dashboard <span>→</span></a>
         </nav>
     </div>
 </header>
