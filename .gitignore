@@ -1,0 +1,13 @@
+# Local environment and secrets
+.env
+config/db.local.php
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime / temporary files
+*.log
+*.tmp
