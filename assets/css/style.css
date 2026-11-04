@@ -28,6 +28,8 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 .main-nav>a:not(.nav-order):hover,.main-nav>a.active{color:var(--rose-dark)}
 .nav-order{display:inline-flex;align-items:center;gap:12px;background:var(--ink);color:white;padding:12px 19px;border-radius:4px;font-size:12px;font-weight:700;transition:background .2s,transform .2s}
 .nav-order:hover{background:var(--rose-dark);transform:translateY(-1px)}
+.nav-order.nav-admin{background:var(--rose);color:#fff;border:1px solid var(--rose);box-shadow:0 5px 14px rgba(200,121,120,.18)}
+.nav-order.nav-admin:hover{background:var(--rose-dark);border-color:var(--rose-dark)}
 .nav-toggle{display:none;border:1px solid var(--line);background:var(--cream);color:var(--ink);border-radius:4px;padding:8px 12px;cursor:pointer}
 
 /* Homepage hero */
