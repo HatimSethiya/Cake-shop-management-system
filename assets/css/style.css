@@ -246,3 +246,9 @@ h1 em,h2 em{font-weight:500;color:var(--rose);font-style:italic}
   .order-meta{grid-template-columns:1fr 1fr}.status-form{align-items:stretch;flex-direction:column}.status-form select{width:100%}
   .order-card{padding:17px}.order-card-head{align-items:flex-start}
 }
+
+
+/* Cake catalogue edit/delete action layout */
+.cake-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.cake-actions form{margin:0}
+.cake-actions .btn{white-space:nowrap}
